@@ -11,7 +11,7 @@ val lexToCPP = hashMapOf(
         Pair(kwToLex["def"], "Number"),
         Pair(kwToLex["="], "="),
         Pair(kwToLex["\n"], ";\n\t"),
-        Pair(kwToLex["out"], "cout <<"),
+        Pair(kwToLex["out"], "cout << endl <<"),
         Pair("|", "<< endl"),
         Pair("^", "%")
 )
